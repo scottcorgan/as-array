@@ -5,6 +5,6 @@ module.exports = function (data) {
   if (isArgs(data)) data = [].splice.call(data, 0);
   
   return Array.isArray(data)
-    ? [].splice.call(data, 0)
-    : [data]
+    ? data
+    : [data];
 };

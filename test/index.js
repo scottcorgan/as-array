@@ -1,7 +1,7 @@
 var asArray = require('../');
 var test = require('tape');
 
-test('returns a copy of the array passed in', function (t) {
+test('returns the array passed in', function (t) {
   var arr = [1,2,3];
   t.deepEqual(asArray(arr), [1,2,3], 'returned array');
   t.end();

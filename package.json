@@ -1,6 +1,6 @@
 {
   "name": "as-array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make any value an array",
   "main": "index.js",
   "scripts": {
