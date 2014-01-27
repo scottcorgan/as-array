@@ -1,0 +1,29 @@
+{
+  "name": "as-array",
+  "version": "0.1.0",
+  "description": "Make any value an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/as-array.git"
+  },
+  "keywords": [
+    "array",
+    "convert",
+    "argument"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/as-array/issues"
+  },
+  "dependencies": {
+    "is-args": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
