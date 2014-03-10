@@ -1,4 +1,4 @@
-var isArgs = require('is-args');
+var isArgs = require('lodash.isarguments');
 
 module.exports = function (data) {
   if (!data) data = [];
