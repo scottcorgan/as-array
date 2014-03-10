@@ -18,7 +18,7 @@ test('returns empty array with undefined passed in', function (t) {
   t.end();
 });
 
-test('converts arguments variable into array', function (t) {
+test('converts arguments variable with numbers into array', function (t) {
   function tester () {
     t.deepEqual(asArray(arguments), [1,2], 'converted to array');
     t.end();
@@ -26,3 +26,13 @@ test('converts arguments variable into array', function (t) {
   
   tester(1, 2);
 });
+
+test('converts arguments variable with strings into array', function (t) {
+  function tester () {
+    t.deepEqual(asArray(arguments), ['arg1', 'arg2'], 'converted to array');
+    t.end();
+  };
+  
+  tester('arg1', 'arg2');
+});
+
