@@ -1,7 +1,7 @@
 {
   "name": "as-array",
-  "version": "1.0.0",
-  "description": "Make any value an array",
+  "version": "2.0.0",
+  "description": "Make any value an array. No dependencies.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js | tap-spec"
@@ -20,13 +20,8 @@
   "bugs": {
     "url": "https://github.com/scottcorgan/as-array/issues"
   },
-  "dependencies": {
-    "lodash.isarguments": "2.4.x",
-    "lodash.isobject": "^2.4.1",
-    "lodash.values": "^2.4.1"
-  },
   "devDependencies": {
-    "tap-spec": "^1.0.0",
-    "tape": "~2.3.2"
+    "tap-spec": "^4.1.0",
+    "tessed": "^2.0.0"
   }
 }
