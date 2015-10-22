@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "tap-spec": "^4.1.0",
-    "tessed": "^2.0.0"
+    "tessed": "^2.2.0"
   }
 }
